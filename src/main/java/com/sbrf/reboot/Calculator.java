@@ -24,4 +24,8 @@ public class Calculator {
     public static double getSquare(double a) {
         return a * a;
     }
+
+    public static double getSqrt(double a){
+        return Math.sqrt(a);
+    }
 }

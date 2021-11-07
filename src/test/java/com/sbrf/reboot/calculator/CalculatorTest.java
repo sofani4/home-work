@@ -49,4 +49,12 @@ class CalculatorTest {
         assertEquals(4, Calculator.getSquare(-2));
         assertNotEquals(-9, Calculator.getSquare(-3));
     }
+
+    @Test // квадратный корень числа
+    void getSqrt(){
+        assertEquals(4, Calculator.getSqrt(16));
+        assertEquals(81, Calculator.getSqrt(6561));
+        assertNotEquals(-25, Calculator.getSqrt(-5));
+
+    }
 }
