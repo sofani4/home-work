@@ -1,5 +1,7 @@
 package com.sbrf.reboot.service;
 
+import com.sbrf.reboot.dto.Account;
+
 public class AccountService {
     private AccountRepository accountRepository;
 
