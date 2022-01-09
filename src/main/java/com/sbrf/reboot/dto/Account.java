@@ -15,6 +15,7 @@ import java.time.LocalDate;
 public class Account {
 
     private Long id;
+    private Long clientId;
     private String number;
     private BigDecimal balance;
     private LocalDate createDate = LocalDate.now();
