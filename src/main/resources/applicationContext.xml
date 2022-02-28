@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="account16"
+          class="com.sbrf.reboot.springBean.Account16">
+        <constructor-arg value="1234"/>
+        <constructor-arg value="5435.34"/>
+        <constructor-arg value="RUB"/>
+    </bean>
+
+    <bean id="client16"
+          class="com.sbrf.reboot.springBean.Client16">
+        <constructor-arg value="Зимин Александр"/>
+        <constructor-arg ref="account16"/>
+    </bean>
+
+</beans>
